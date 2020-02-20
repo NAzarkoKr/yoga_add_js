@@ -228,11 +228,25 @@
 								<input class="popup-form__input" name="phone" type="tel" required placeholder="+7(978) 973 33 45">
 								<button class="button popup-form__btn">
 									Оставить заявку!
-								</button>
+		 						</button>
 						</form>
 					</div>
 	 		</div>
 	</div>
+	<div id="mocha"></div>
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/7.0.1/mocha.min.css">-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/7.0.1/mocha.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.min.js"></script>
+	<script>
+		mocha.setup('bdd');
+
+		let assert = chai.assert;
+	</script>
+	<script src="js/test.js"></script>
 	<script src="js/script.js"></script>
+
+	<script>
+		mocha.run();
+	</script>
 </body>
 </html>

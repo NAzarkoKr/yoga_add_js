@@ -11,3 +11,5 @@ What shows and hides content if click on delegation element.
 5.Slider scrolls images around and delegated act on buttons.
 
 6.Calculates sum and checked that all inputs full.
+
+7.Added some test(Mocha, Chai)

@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function() {
+//window.addEventListener('DOMContentLoaded', function() {
 
 //TABS
     'use strict';
@@ -258,6 +258,6 @@ window.addEventListener('DOMContentLoaded', function() {
              }
 
          });
-});
+//});
 
 
